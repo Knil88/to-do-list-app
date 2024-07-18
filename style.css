@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+/* Utilities */
+
+.container {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+/* Generiche */
+
+body {
+    padding: 16px;
+    font-family: Inter Tight, sans-serif;
+    background-color: rgb(210, 239, 232);
+}
+
+h1 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+header {
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+#logo {
+    max-width: 45px;
+    border-radius: 60%;
+}
+
+.panel {
+    background-color: #172ba1;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.add-todo {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.empty-message-list {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+input {
+    flex-grow: 1;
+    border: none;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 16px;
+    padding: 16px;
+    background-color: yellow;
+}
+
+.todo-list {
+    list-style: none;
+}
+
+.todo-item {
+    background-color: white;
+    display: flex;
+    margin: 16px 0;
+    border-radius: 16px;
+    align-items: center;
+}
+
+.todo-check {
+    cursor: pointer;
+    background-color: yellow;
+    padding: 16px;
+    border-radius: 16px 0 0 16px;
+}
+
+.todo-text {
+
+    background-color: white;
+    border-radius: 16px;
+    padding: 16px;
+    flex-grow: 1;
+    font-weight: 700;
+
+}
+
+.activity-color {
+    color: #172ba1;
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
