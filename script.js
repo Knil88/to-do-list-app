@@ -1,4 +1,4 @@
-console.log('JS Work!!!');
+
 
 //Operazioni iniziali
 
@@ -57,7 +57,7 @@ function showContent() {
 
     if (activities.length > 0) {
         activities.forEach(function (activity, index) {
-            console.log(activity)
+
             todoList.innerHTML +=
                 `
                  <li class="todo-item">
