@@ -110,3 +110,13 @@ button {
     font-weight: bold;
     text-align: center;
 }
+
+footer {
+    margin-top: 16px;
+    text-align: center;
+}
+
+#reset {
+    text-align: center;
+
+}

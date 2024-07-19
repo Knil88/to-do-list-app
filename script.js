@@ -6,6 +6,7 @@ const button = document.querySelector('button');
 const inputField = document.querySelector('input');
 const todoList = document.querySelector('.todo-list');
 const emptyMessage = document.querySelector('.empty-message-list')
+const resetList = document.getElementById('reset');
 const STORAGE_KEY = 'todo'
 
 
@@ -45,6 +46,13 @@ button.addEventListener('click', function () {
     }
 
 })
+
+resetList.addEventListener('click', function () {
+
+    activities = [];
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(activities));
+    showContent();
+});
 
 
 
